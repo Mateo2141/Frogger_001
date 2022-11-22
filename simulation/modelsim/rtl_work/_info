@@ -1,0 +1,609 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/mateo/Desktop/Frogger_ganador/simulation/modelsim
+vBB_SYSTEM
+Z1 !s110 1669080434
+!i10b 1
+!s100 ?DNXF_FDdSXA2z9]bzA;J3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I9U38H>3B2j65Sg[5dNOB<0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1669080111
+8C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v
+FC:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v
+!i122 13
+L0 22 758
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1669080434.000000
+!s107 C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mateo/Desktop/Frogger_ganador|C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v|
+!i113 1
+Z6 o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+C:/Users/mateo/Desktop/Frogger_ganador
+Z7 tCvgOpt 0
+n@b@b_@s@y@s@t@e@m
+vCC_BIN2BCD1
+R1
+!i10b 1
+!s100 e2A8CH=cKz6nQiGf_DFMV2
+R2
+IK`c=mKCQHLFabQkC=P1=52
+R3
+R0
+Z8 w1668908925
+8C:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_BIN2BCD1.v
+FC:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_BIN2BCD1.v
+!i122 7
+L0 19 32
+R4
+r1
+!s85 0
+31
+Z9 !s108 1669080433.000000
+!s107 C:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_BIN2BCD1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl|C:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_BIN2BCD1.v|
+!i113 1
+R6
+Z10 !s92 -vlog01compat -work work +incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl
+R7
+n@c@c_@b@i@n2@b@c@d1
+vCC_BOTTOMSIDECOMPARATOR
+Z11 !s110 1669080433
+!i10b 1
+!s100 B_Ho;gQ@UKz_UBK?z?[Pz0
+R2
+I2IoIRDdhi;6IEAAig>z]70
+R3
+R0
+R8
+8C:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_BOTTOMSIDECOMPARATOR.v
+FC:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_BOTTOMSIDECOMPARATOR.v
+!i122 4
+Z12 L0 21 30
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_BOTTOMSIDECOMPARATOR.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl|C:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_BOTTOMSIDECOMPARATOR.v|
+!i113 1
+R6
+R10
+R7
+n@c@c_@b@o@t@t@o@m@s@i@d@e@c@o@m@p@a@r@a@t@o@r
+vCC_COMPARATOR_LEVELS
+Z13 !s110 1669080435
+!i10b 1
+!s100 ;iM2[MLDh7VkU36=^zidm2
+R2
+I9]zbAHbaC?1Rc;I5QM@IQ1
+R3
+R0
+w1669038207
+8C:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_COMPARATOR_LEVELS.v
+FC:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_COMPARATOR_LEVELS.v
+!i122 20
+Z14 L0 4 30
+R4
+r1
+!s85 0
+31
+Z15 !s108 1669080435.000000
+!s107 C:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_COMPARATOR_LEVELS.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl|C:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_COMPARATOR_LEVELS.v|
+!i113 1
+R6
+R10
+R7
+n@c@c_@c@o@m@p@a@r@a@t@o@r_@l@e@v@e@l@s
+vCC_COMPARATOR_LIVES
+R13
+!i10b 1
+!s100 0oDS^>3moEWncB9QM9=aI2
+R2
+ING4_BNnE2`NAeYD_:1K^80
+R3
+R0
+w1669045188
+8C:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_COMPARATOR_LIVES.v
+FC:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_COMPARATOR_LIVES.v
+!i122 19
+R14
+R4
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_COMPARATOR_LIVES.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl|C:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_COMPARATOR_LIVES.v|
+!i113 1
+R6
+R10
+R7
+n@c@c_@c@o@m@p@a@r@a@t@o@r_@l@i@v@e@s
+vCC_DISPLAYTIMER_COMPARATOR
+R13
+!i10b 1
+!s100 4^baREj@P7Y6RVIX2H5kQ0
+R2
+IJm26Zk>:7SzjoS`E6@2c?2
+R3
+R0
+w1669049361
+8C:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_DISPLAYTIMER_COMPARATOR.v
+FC:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_DISPLAYTIMER_COMPARATOR.v
+!i122 21
+L0 21 31
+R4
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_DISPLAYTIMER_COMPARATOR.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl|C:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_DISPLAYTIMER_COMPARATOR.v|
+!i113 1
+R6
+R10
+R7
+n@c@c_@d@i@s@p@l@a@y@t@i@m@e@r_@c@o@m@p@a@r@a@t@o@r
+vCC_LastRegisterCOMPARATOR
+R1
+!i10b 1
+!s100 nkcml[COd6b17If3]gcKP3
+R2
+I3YW=Y4?0PTMfD@0jgm?4d3
+R3
+R0
+R8
+8C:/Users/mateo/Desktop/Frogger_ganador/rtl/Last_register_comparator.v
+FC:/Users/mateo/Desktop/Frogger_ganador/rtl/Last_register_comparator.v
+!i122 15
+L0 21 34
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/mateo/Desktop/Frogger_ganador/rtl/Last_register_comparator.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl|C:/Users/mateo/Desktop/Frogger_ganador/rtl/Last_register_comparator.v|
+!i113 1
+R6
+R10
+R7
+n@c@c_@last@register@c@o@m@p@a@r@a@t@o@r
+vCC_MATRIXCOMPARATOR
+R1
+!i10b 1
+!s100 5f[>:JLRJI3KgGfDfX]R41
+R2
+Ih`8P=GUcQmIoz7^2mLeSE3
+R3
+R0
+w1669005533
+8C:/Users/mateo/Desktop/Frogger_ganador/rtl/LosingComparator.v
+FC:/Users/mateo/Desktop/Frogger_ganador/rtl/LosingComparator.v
+!i122 14
+L0 7 44
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/mateo/Desktop/Frogger_ganador/rtl/LosingComparator.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl|C:/Users/mateo/Desktop/Frogger_ganador/rtl/LosingComparator.v|
+!i113 1
+R6
+R10
+R7
+n@c@c_@m@a@t@r@i@x@c@o@m@p@a@r@a@t@o@r
+vCC_SEVENSEG1
+R11
+!i10b 1
+!s100 =jE6_41[_EQaJFJT^^;[`3
+R2
+IX0B5:DNR3?V7VzJ2g2kG52
+R3
+R0
+R8
+8C:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_SEVENSEG1.v
+FC:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_SEVENSEG1.v
+!i122 6
+L0 24 82
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_SEVENSEG1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl|C:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_SEVENSEG1.v|
+!i113 1
+R6
+R10
+R7
+n@c@c_@s@e@v@e@n@s@e@g1
+vCC_SPEEDCOMPARATOR
+R1
+!i10b 1
+!s100 C597Vgh[d0jNfY]Z1@Lk12
+R2
+I0`o?W?eCa7g1iJ`O1dh_j2
+R3
+R0
+w1669080112
+8C:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_SPEEDCOMPARATOR.v
+FC:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_SPEEDCOMPARATOR.v
+!i122 9
+R12
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_SPEEDCOMPARATOR.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl|C:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_SPEEDCOMPARATOR.v|
+!i113 1
+R6
+R10
+R7
+n@c@c_@s@p@e@e@d@c@o@m@p@a@r@a@t@o@r
+vmatrix_ctrl
+R1
+!i10b 1
+!s100 [4:D9=Gd5dV@ez2V0mYDE1
+R2
+Il:QfBeE2k9O=FkY34laA32
+R3
+R0
+R8
+8C:/Users/mateo/Desktop/Frogger_ganador/rtl/max7219_ctrl.v
+FC:/Users/mateo/Desktop/Frogger_ganador/rtl/max7219_ctrl.v
+!i122 11
+L0 18 264
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/mateo/Desktop/Frogger_ganador/rtl/max7219_ctrl.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl|C:/Users/mateo/Desktop/Frogger_ganador/rtl/max7219_ctrl.v|
+!i113 1
+R6
+R10
+R7
+vSC_COUNTER_LEVELS
+R13
+!i10b 1
+!s100 =zzNDF^`PR1l90ZKlG_0g3
+R2
+Ij_[`0gd=AzfMo[Z;Do4b:1
+R3
+R0
+w1669038162
+8C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_COUNTER_LEVELS.v
+FC:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_COUNTER_LEVELS.v
+!i122 17
+L0 1 51
+R4
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_COUNTER_LEVELS.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl|C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_COUNTER_LEVELS.v|
+!i113 1
+R6
+R10
+R7
+n@s@c_@c@o@u@n@t@e@r_@l@e@v@e@l@s
+vSC_DEBOUNCE1
+R1
+!i10b 1
+!s100 XNkTY7jO?V1GbcQ[BOmbo1
+R2
+IWL:RihDgBLmlR?RN2l;KR3
+R3
+R0
+R8
+8C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_DEBOUNCE1.v
+FC:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_DEBOUNCE1.v
+!i122 12
+L0 44 59
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_DEBOUNCE1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl|C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_DEBOUNCE1.v|
+!i113 1
+R6
+R10
+R7
+n@s@c_@d@e@b@o@u@n@c@e1
+vSC_DISPLAYTIMER_COUNTER
+R13
+!i10b 1
+!s100 o]M0n?JcZ3?Pdn`o]GB<33
+R2
+IP4?1PHcjZKU3[ZVeK=^IM1
+R3
+R0
+w1669049459
+8C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_DISPLAYTIMER_COUNTER.v
+FC:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_DISPLAYTIMER_COUNTER.v
+!i122 22
+Z16 L0 21 51
+R4
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_DISPLAYTIMER_COUNTER.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl|C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_DISPLAYTIMER_COUNTER.v|
+!i113 1
+R6
+R10
+R7
+n@s@c_@d@i@s@p@l@a@y@t@i@m@e@r_@c@o@u@n@t@e@r
+vSC_LIVES_COUNTER
+R13
+!i10b 1
+!s100 nU9EkGAa2CW:[7D5B@Nc20
+R2
+IgE6BgYEozDhf:gblmXEZT3
+R3
+R0
+w1669054379
+8C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_LIVES_COUNTER.v
+FC:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_LIVES_COUNTER.v
+!i122 16
+L0 4 51
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_LIVES_COUNTER.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl|C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_LIVES_COUNTER.v|
+!i113 1
+R6
+R10
+R7
+n@s@c_@l@i@v@e@s_@c@o@u@n@t@e@r
+vSC_RegBACKGTYPE
+R11
+!i10b 1
+!s100 2;m7c_9Nc2GBLUEoiOI8Y2
+R2
+IdPj0_m1;DUh6gR;OTD]cR3
+R3
+R0
+w1669071268
+8C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_RegBACKGTYPE.v
+FC:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_RegBACKGTYPE.v
+!i122 1
+L0 21 94
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_RegBACKGTYPE.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl|C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_RegBACKGTYPE.v|
+!i113 1
+R6
+R10
+R7
+n@s@c_@reg@b@a@c@k@g@t@y@p@e
+vSC_RegPOINTTYPE
+R11
+!i10b 1
+!s100 z_5EZKHVXj6jeN@_iLl9E3
+R2
+IokF]d3RS:9[czm7]TgIFc1
+R3
+R0
+R8
+8C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_RegPOINTTYPE.v
+FC:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_RegPOINTTYPE.v
+!i122 3
+L0 21 70
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_RegPOINTTYPE.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl|C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_RegPOINTTYPE.v|
+!i113 1
+R6
+R10
+R7
+n@s@c_@reg@p@o@i@n@t@t@y@p@e
+vSC_STATEMACHINEBACKG
+R11
+!i10b 1
+!s100 bMV;2Ugbb?5Uze1=4_:db1
+R2
+IOeU_27VKQ>Y91W5I6jQzM1
+R3
+R0
+w1669072953
+8C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_STATEMACHINEBACKG.v
+FC:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_STATEMACHINEBACKG.v
+!i122 0
+L0 21 122
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_STATEMACHINEBACKG.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl|C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_STATEMACHINEBACKG.v|
+!i113 1
+R6
+R10
+R7
+n@s@c_@s@t@a@t@e@m@a@c@h@i@n@e@b@a@c@k@g
+vSC_STATEMACHINEGENERAL
+R13
+!i10b 1
+!s100 ea2?`W2aI4a[M7ZDoOSld3
+R2
+I3ljiE[G`HdolTGcVF_g<J0
+R3
+R0
+w1669079592
+8C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC.STATEMACHINEGENERAL.v
+FC:/Users/mateo/Desktop/Frogger_ganador/rtl/SC.STATEMACHINEGENERAL.v
+!i122 18
+L0 11 210
+R4
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC.STATEMACHINEGENERAL.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl|C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC.STATEMACHINEGENERAL.v|
+!i113 1
+R6
+R10
+R7
+n@s@c_@s@t@a@t@e@m@a@c@h@i@n@e@g@e@n@e@r@a@l
+vSC_STATEMACHINEPOINT
+R11
+!i10b 1
+!s100 5VW?KN8U>_3=lL0EG6<gi0
+R2
+IIY@]:Ndd9J55:LX_M1?3c2
+R3
+R0
+w1669011696
+8C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_STATEMACHINEPOINT.v
+FC:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_STATEMACHINEPOINT.v
+!i122 2
+L0 21 200
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_STATEMACHINEPOINT.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl|C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_STATEMACHINEPOINT.v|
+!i113 1
+R6
+R10
+R7
+n@s@c_@s@t@a@t@e@m@a@c@h@i@n@e@p@o@i@n@t
+vSC_upCOUNTER
+R11
+!i10b 1
+!s100 :1Aa63FP1gJ_<K8oDRn@I2
+R2
+I=gKSj5hN8S0eeZKz;oM^M1
+R3
+R0
+R8
+8C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_upCOUNTER.v
+FC:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_upCOUNTER.v
+!i122 5
+R16
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_upCOUNTER.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl|C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_upCOUNTER.v|
+!i113 1
+R6
+R10
+R7
+n@s@c_up@c@o@u@n@t@e@r
+vSC_upSPEEDCOUNTER
+R1
+!i10b 1
+!s100 4H=fZ;gB_VSeiT[5hMMc30
+R2
+ID=<1gW]2hmK5[ZHL;ge2z3
+R3
+R0
+R8
+8C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_upSPEEDCOUNTER.v
+FC:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_upSPEEDCOUNTER.v
+!i122 8
+R16
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_upSPEEDCOUNTER.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl|C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_upSPEEDCOUNTER.v|
+!i113 1
+R6
+R10
+R7
+n@s@c_up@s@p@e@e@d@c@o@u@n@t@e@r
+vshift_reg_start_done
+R1
+!i10b 1
+!s100 a;U`>HNk0[Q_3RIT6@Rh63
+R2
+IIQhdR6SBNa^_o>kg8=G[:3
+R3
+R0
+R8
+8C:/Users/mateo/Desktop/Frogger_ganador/rtl/shift_reg_start_done.v
+FC:/Users/mateo/Desktop/Frogger_ganador/rtl/shift_reg_start_done.v
+!i122 10
+L0 34 51
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/mateo/Desktop/Frogger_ganador/rtl/shift_reg_start_done.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl|C:/Users/mateo/Desktop/Frogger_ganador/rtl/shift_reg_start_done.v|
+!i113 1
+R6
+R10
+R7
+vTB_SYSTEM
+R13
+!i10b 1
+!s100 AU:FRiQ>L=9;zfIDU8=I<2
+R2
+Il@:6gc5k6I^@7K]a8A:Ve2
+R3
+R0
+R8
+8C:/Users/mateo/Desktop/Frogger_ganador/simulation/modelsim/TB_SYSTEM.vt
+FC:/Users/mateo/Desktop/Frogger_ganador/simulation/modelsim/TB_SYSTEM.vt
+!i122 23
+L0 19 140
+R4
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/mateo/Desktop/Frogger_ganador/simulation/modelsim/TB_SYSTEM.vt|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/mateo/Desktop/Frogger_ganador/simulation/modelsim|C:/Users/mateo/Desktop/Frogger_ganador/simulation/modelsim/TB_SYSTEM.vt|
+!i113 1
+R6
+!s92 -vlog01compat -work work +incdir+C:/Users/mateo/Desktop/Frogger_ganador/simulation/modelsim
+R7
+n@t@b_@s@y@s@t@e@m

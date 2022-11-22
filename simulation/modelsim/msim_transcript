@@ -1,0 +1,695 @@
+# Reading pref.tcl
+# do BB_SYSTEM_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl {C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_STATEMACHINEBACKG.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:00 on Nov 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl" C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_STATEMACHINEBACKG.v 
+# -- Compiling module SC_STATEMACHINEBACKG
+# 
+# Top level modules:
+# 	SC_STATEMACHINEBACKG
+# End time: 20:27:00 on Nov 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl {C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_RegBACKGTYPE.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:00 on Nov 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl" C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_RegBACKGTYPE.v 
+# -- Compiling module SC_RegBACKGTYPE
+# 
+# Top level modules:
+# 	SC_RegBACKGTYPE
+# End time: 20:27:00 on Nov 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl {C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_STATEMACHINEPOINT.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:00 on Nov 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl" C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_STATEMACHINEPOINT.v 
+# -- Compiling module SC_STATEMACHINEPOINT
+# 
+# Top level modules:
+# 	SC_STATEMACHINEPOINT
+# End time: 20:27:00 on Nov 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl {C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_RegPOINTTYPE.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:00 on Nov 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl" C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_RegPOINTTYPE.v 
+# -- Compiling module SC_RegPOINTTYPE
+# 
+# Top level modules:
+# 	SC_RegPOINTTYPE
+# End time: 20:27:01 on Nov 21,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl {C:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_BOTTOMSIDECOMPARATOR.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:01 on Nov 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl" C:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_BOTTOMSIDECOMPARATOR.v 
+# -- Compiling module CC_BOTTOMSIDECOMPARATOR
+# 
+# Top level modules:
+# 	CC_BOTTOMSIDECOMPARATOR
+# End time: 20:27:01 on Nov 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl {C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_upCOUNTER.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:01 on Nov 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl" C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_upCOUNTER.v 
+# -- Compiling module SC_upCOUNTER
+# 
+# Top level modules:
+# 	SC_upCOUNTER
+# End time: 20:27:01 on Nov 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl {C:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_SEVENSEG1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:01 on Nov 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl" C:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_SEVENSEG1.v 
+# -- Compiling module CC_SEVENSEG1
+# 
+# Top level modules:
+# 	CC_SEVENSEG1
+# End time: 20:27:01 on Nov 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl {C:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_BIN2BCD1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:01 on Nov 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl" C:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_BIN2BCD1.v 
+# -- Compiling module CC_BIN2BCD1
+# 
+# Top level modules:
+# 	CC_BIN2BCD1
+# End time: 20:27:01 on Nov 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl {C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_upSPEEDCOUNTER.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:01 on Nov 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl" C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_upSPEEDCOUNTER.v 
+# -- Compiling module SC_upSPEEDCOUNTER
+# 
+# Top level modules:
+# 	SC_upSPEEDCOUNTER
+# End time: 20:27:01 on Nov 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl {C:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_SPEEDCOMPARATOR.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:01 on Nov 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl" C:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_SPEEDCOMPARATOR.v 
+# -- Compiling module CC_SPEEDCOMPARATOR
+# 
+# Top level modules:
+# 	CC_SPEEDCOMPARATOR
+# End time: 20:27:01 on Nov 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl {C:/Users/mateo/Desktop/Frogger_ganador/rtl/shift_reg_start_done.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:01 on Nov 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl" C:/Users/mateo/Desktop/Frogger_ganador/rtl/shift_reg_start_done.v 
+# -- Compiling module shift_reg_start_done
+# 
+# Top level modules:
+# 	shift_reg_start_done
+# End time: 20:27:01 on Nov 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl {C:/Users/mateo/Desktop/Frogger_ganador/rtl/max7219_ctrl.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:01 on Nov 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl" C:/Users/mateo/Desktop/Frogger_ganador/rtl/max7219_ctrl.v 
+# -- Compiling module matrix_ctrl
+# 
+# Top level modules:
+# 	matrix_ctrl
+# End time: 20:27:01 on Nov 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl {C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_DEBOUNCE1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:02 on Nov 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl" C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_DEBOUNCE1.v 
+# -- Compiling module SC_DEBOUNCE1
+# 
+# Top level modules:
+# 	SC_DEBOUNCE1
+# End time: 20:27:02 on Nov 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mateo/Desktop/Frogger_ganador {C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:02 on Nov 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mateo/Desktop/Frogger_ganador" C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v 
+# -- Compiling module BB_SYSTEM
+# 
+# Top level modules:
+# 	BB_SYSTEM
+# End time: 20:27:02 on Nov 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl {C:/Users/mateo/Desktop/Frogger_ganador/rtl/LosingComparator.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:02 on Nov 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl" C:/Users/mateo/Desktop/Frogger_ganador/rtl/LosingComparator.v 
+# -- Compiling module CC_MATRIXCOMPARATOR
+# 
+# Top level modules:
+# 	CC_MATRIXCOMPARATOR
+# End time: 20:27:02 on Nov 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl {C:/Users/mateo/Desktop/Frogger_ganador/rtl/Last_register_comparator.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:02 on Nov 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl" C:/Users/mateo/Desktop/Frogger_ganador/rtl/Last_register_comparator.v 
+# -- Compiling module CC_LastRegisterCOMPARATOR
+# 
+# Top level modules:
+# 	CC_LastRegisterCOMPARATOR
+# End time: 20:27:02 on Nov 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl {C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_LIVES_COUNTER.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:02 on Nov 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl" C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_LIVES_COUNTER.v 
+# -- Compiling module SC_LIVES_COUNTER
+# 
+# Top level modules:
+# 	SC_LIVES_COUNTER
+# End time: 20:27:02 on Nov 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl {C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_COUNTER_LEVELS.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:02 on Nov 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl" C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_COUNTER_LEVELS.v 
+# -- Compiling module SC_COUNTER_LEVELS
+# 
+# Top level modules:
+# 	SC_COUNTER_LEVELS
+# End time: 20:27:02 on Nov 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl {C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC.STATEMACHINEGENERAL.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:02 on Nov 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl" C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC.STATEMACHINEGENERAL.v 
+# -- Compiling module SC_STATEMACHINEGENERAL
+# 
+# Top level modules:
+# 	SC_STATEMACHINEGENERAL
+# End time: 20:27:02 on Nov 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl {C:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_COMPARATOR_LIVES.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:02 on Nov 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl" C:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_COMPARATOR_LIVES.v 
+# -- Compiling module CC_COMPARATOR_LIVES
+# 
+# Top level modules:
+# 	CC_COMPARATOR_LIVES
+# End time: 20:27:02 on Nov 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl {C:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_COMPARATOR_LEVELS.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:02 on Nov 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl" C:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_COMPARATOR_LEVELS.v 
+# -- Compiling module CC_COMPARATOR_LEVELS
+# 
+# Top level modules:
+# 	CC_COMPARATOR_LEVELS
+# End time: 20:27:02 on Nov 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl {C:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_DISPLAYTIMER_COMPARATOR.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:03 on Nov 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl" C:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_DISPLAYTIMER_COMPARATOR.v 
+# -- Compiling module CC_DISPLAYTIMER_COMPARATOR
+# 
+# Top level modules:
+# 	CC_DISPLAYTIMER_COMPARATOR
+# End time: 20:27:03 on Nov 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl {C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_DISPLAYTIMER_COUNTER.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:03 on Nov 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl" C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_DISPLAYTIMER_COUNTER.v 
+# -- Compiling module SC_DISPLAYTIMER_COUNTER
+# 
+# Top level modules:
+# 	SC_DISPLAYTIMER_COUNTER
+# End time: 20:27:03 on Nov 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/mateo/Desktop/Frogger_ganador/simulation/modelsim {C:/Users/mateo/Desktop/Frogger_ganador/simulation/modelsim/TB_SYSTEM.vt}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:03 on Nov 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mateo/Desktop/Frogger_ganador/simulation/modelsim" C:/Users/mateo/Desktop/Frogger_ganador/simulation/modelsim/TB_SYSTEM.vt 
+# -- Compiling module TB_SYSTEM
+# 
+# Top level modules:
+# 	TB_SYSTEM
+# End time: 20:27:03 on Nov 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  TB_SYSTEM
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" TB_SYSTEM 
+# Start time: 20:27:03 on Nov 21,2022
+# Loading work.TB_SYSTEM
+# Loading work.BB_SYSTEM
+# Loading work.SC_DEBOUNCE1
+# Loading work.SC_RegPOINTTYPE
+# Loading work.SC_STATEMACHINEPOINT
+# Loading work.SC_RegBACKGTYPE
+# Loading work.SC_STATEMACHINEBACKG
+# Loading work.SC_upSPEEDCOUNTER
+# Loading work.CC_SPEEDCOMPARATOR
+# Loading work.SC_DISPLAYTIMER_COUNTER
+# Loading work.CC_DISPLAYTIMER_COMPARATOR
+# Loading work.CC_MATRIXCOMPARATOR
+# Loading work.CC_LastRegisterCOMPARATOR
+# Loading work.CC_BOTTOMSIDECOMPARATOR
+# Loading work.SC_COUNTER_LEVELS
+# Loading work.CC_COMPARATOR_LEVELS
+# Loading work.SC_LIVES_COUNTER
+# Loading work.CC_COMPARATOR_LIVES
+# Loading work.SC_STATEMACHINEGENERAL
+# Loading work.matrix_ctrl
+# Loading work.shift_reg_start_done
+# Loading work.CC_BIN2BCD1
+# Loading work.CC_SEVENSEG1
+# Loading work.SC_upCOUNTER
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (1) for port 'BB_SYSTEM_display_OutBUS'. The port definition is at: C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v(24).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_SYSTEM/BB_SYSTEM_u0 File: C:/Users/mateo/Desktop/Frogger_ganador/simulation/modelsim/TB_SYSTEM.vt Line: 60
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'SC_RegBACKGTYPE_u6'.  Expected 9, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /TB_SYSTEM/BB_SYSTEM_u0/SC_RegBACKGTYPE_u6 File: C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v Line: 443
+# ** Warning: (vsim-3722) C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v(443): [TFMPC] - Missing connection for port 'SC_RegBACKGTYPE_data2_InBUS'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'SC_RegBACKGTYPE_u5'.  Expected 9, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /TB_SYSTEM/BB_SYSTEM_u0/SC_RegBACKGTYPE_u5 File: C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v Line: 461
+# ** Warning: (vsim-3722) C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v(461): [TFMPC] - Missing connection for port 'SC_RegBACKGTYPE_data2_InBUS'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'SC_RegBACKGTYPE_u4'.  Expected 9, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /TB_SYSTEM/BB_SYSTEM_u0/SC_RegBACKGTYPE_u4 File: C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v Line: 480
+# ** Warning: (vsim-3722) C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v(480): [TFMPC] - Missing connection for port 'SC_RegBACKGTYPE_data2_InBUS'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'SC_RegBACKGTYPE_u3'.  Expected 9, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /TB_SYSTEM/BB_SYSTEM_u0/SC_RegBACKGTYPE_u3 File: C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v Line: 498
+# ** Warning: (vsim-3722) C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v(498): [TFMPC] - Missing connection for port 'SC_RegBACKGTYPE_data2_InBUS'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'SC_RegBACKGTYPE_u2'.  Expected 9, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /TB_SYSTEM/BB_SYSTEM_u0/SC_RegBACKGTYPE_u2 File: C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v Line: 515
+# ** Warning: (vsim-3722) C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v(515): [TFMPC] - Missing connection for port 'SC_RegBACKGTYPE_data2_InBUS'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'SC_RegBACKGTYPE_u1'.  Expected 9, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /TB_SYSTEM/BB_SYSTEM_u0/SC_RegBACKGTYPE_u1 File: C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v Line: 533
+# ** Warning: (vsim-3722) C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v(533): [TFMPC] - Missing connection for port 'SC_RegBACKGTYPE_data2_InBUS'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'SC_RegBACKGTYPE_u0'.  Expected 9, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /TB_SYSTEM/BB_SYSTEM_u0/SC_RegBACKGTYPE_u0 File: C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v Line: 550
+# ** Warning: (vsim-3722) C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v(550): [TFMPC] - Missing connection for port 'SC_RegBACKGTYPE_data2_InBUS'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (2) for port 'SC_COUNTER_LEVELS_senal_OutLow'. The port definition is at: C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_COUNTER_LEVELS.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_SYSTEM/BB_SYSTEM_u0/SC_COUNTER_LEVELS_u0 File: C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v Line: 628
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (2) for port 'CC_COMPARATOR_LEVELS_senal_InLow'. The port definition is at: C:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_COMPARATOR_LEVELS.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_SYSTEM/BB_SYSTEM_u0/CC_COMPARATOR_LEVELS_u0 File: C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v Line: 635
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'SC_LIVES_COUNTER_senal_OutLow'. The port definition is at: C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_LIVES_COUNTER.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_SYSTEM/BB_SYSTEM_u0/SC_LIVES_COUNTER_u0 File: C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v Line: 640
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'CC_COMPARATOR_LIVES_senal_InLow'. The port definition is at: C:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_COMPARATOR_LIVES.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_SYSTEM/BB_SYSTEM_u0/CC_COMPARATOR_LIVES_u0 File: C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v Line: 648
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'SC_STATEMACHINEGENERAL_u0'.  Expected 12, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /TB_SYSTEM/BB_SYSTEM_u0/SC_STATEMACHINEGENERAL_u0 File: C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v Line: 653
+# ** Warning: (vsim-3722) C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v(653): [TFMPC] - Missing connection for port 'SC_STATEMACHINEGENERAL_contador_CLEAR_OutLow'.
+# ** Warning: (vsim-3722) C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v(653): [TFMPC] - Missing connection for port 'SC_STATEMACHINEGENERAL_Load2_OutLow'.
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Running testbench
+do TB_SYSTEM.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl {C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_STATEMACHINEBACKG.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:13 on Nov 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl" C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_STATEMACHINEBACKG.v 
+# -- Compiling module SC_STATEMACHINEBACKG
+# 
+# Top level modules:
+# 	SC_STATEMACHINEBACKG
+# End time: 20:27:13 on Nov 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl {C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_RegBACKGTYPE.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:13 on Nov 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl" C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_RegBACKGTYPE.v 
+# -- Compiling module SC_RegBACKGTYPE
+# 
+# Top level modules:
+# 	SC_RegBACKGTYPE
+# End time: 20:27:13 on Nov 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl {C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_STATEMACHINEPOINT.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:13 on Nov 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl" C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_STATEMACHINEPOINT.v 
+# -- Compiling module SC_STATEMACHINEPOINT
+# 
+# Top level modules:
+# 	SC_STATEMACHINEPOINT
+# End time: 20:27:13 on Nov 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl {C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_RegPOINTTYPE.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:13 on Nov 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl" C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_RegPOINTTYPE.v 
+# -- Compiling module SC_RegPOINTTYPE
+# 
+# Top level modules:
+# 	SC_RegPOINTTYPE
+# End time: 20:27:13 on Nov 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl {C:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_BOTTOMSIDECOMPARATOR.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:13 on Nov 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl" C:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_BOTTOMSIDECOMPARATOR.v 
+# -- Compiling module CC_BOTTOMSIDECOMPARATOR
+# 
+# Top level modules:
+# 	CC_BOTTOMSIDECOMPARATOR
+# End time: 20:27:13 on Nov 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl {C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_upCOUNTER.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:13 on Nov 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl" C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_upCOUNTER.v 
+# -- Compiling module SC_upCOUNTER
+# 
+# Top level modules:
+# 	SC_upCOUNTER
+# End time: 20:27:13 on Nov 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl {C:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_SEVENSEG1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:13 on Nov 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl" C:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_SEVENSEG1.v 
+# -- Compiling module CC_SEVENSEG1
+# 
+# Top level modules:
+# 	CC_SEVENSEG1
+# End time: 20:27:13 on Nov 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl {C:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_BIN2BCD1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:13 on Nov 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl" C:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_BIN2BCD1.v 
+# -- Compiling module CC_BIN2BCD1
+# 
+# Top level modules:
+# 	CC_BIN2BCD1
+# End time: 20:27:14 on Nov 21,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl {C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_upSPEEDCOUNTER.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:14 on Nov 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl" C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_upSPEEDCOUNTER.v 
+# -- Compiling module SC_upSPEEDCOUNTER
+# 
+# Top level modules:
+# 	SC_upSPEEDCOUNTER
+# End time: 20:27:14 on Nov 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl {C:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_SPEEDCOMPARATOR.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:14 on Nov 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl" C:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_SPEEDCOMPARATOR.v 
+# -- Compiling module CC_SPEEDCOMPARATOR
+# 
+# Top level modules:
+# 	CC_SPEEDCOMPARATOR
+# End time: 20:27:14 on Nov 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl {C:/Users/mateo/Desktop/Frogger_ganador/rtl/shift_reg_start_done.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:14 on Nov 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl" C:/Users/mateo/Desktop/Frogger_ganador/rtl/shift_reg_start_done.v 
+# -- Compiling module shift_reg_start_done
+# 
+# Top level modules:
+# 	shift_reg_start_done
+# End time: 20:27:14 on Nov 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl {C:/Users/mateo/Desktop/Frogger_ganador/rtl/max7219_ctrl.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:14 on Nov 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl" C:/Users/mateo/Desktop/Frogger_ganador/rtl/max7219_ctrl.v 
+# -- Compiling module matrix_ctrl
+# 
+# Top level modules:
+# 	matrix_ctrl
+# End time: 20:27:14 on Nov 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl {C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_DEBOUNCE1.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:14 on Nov 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl" C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_DEBOUNCE1.v 
+# -- Compiling module SC_DEBOUNCE1
+# 
+# Top level modules:
+# 	SC_DEBOUNCE1
+# End time: 20:27:14 on Nov 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mateo/Desktop/Frogger_ganador {C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:14 on Nov 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mateo/Desktop/Frogger_ganador" C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v 
+# -- Compiling module BB_SYSTEM
+# 
+# Top level modules:
+# 	BB_SYSTEM
+# End time: 20:27:14 on Nov 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl {C:/Users/mateo/Desktop/Frogger_ganador/rtl/LosingComparator.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:14 on Nov 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl" C:/Users/mateo/Desktop/Frogger_ganador/rtl/LosingComparator.v 
+# -- Compiling module CC_MATRIXCOMPARATOR
+# 
+# Top level modules:
+# 	CC_MATRIXCOMPARATOR
+# End time: 20:27:14 on Nov 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl {C:/Users/mateo/Desktop/Frogger_ganador/rtl/Last_register_comparator.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:14 on Nov 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl" C:/Users/mateo/Desktop/Frogger_ganador/rtl/Last_register_comparator.v 
+# -- Compiling module CC_LastRegisterCOMPARATOR
+# 
+# Top level modules:
+# 	CC_LastRegisterCOMPARATOR
+# End time: 20:27:14 on Nov 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl {C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_LIVES_COUNTER.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:14 on Nov 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl" C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_LIVES_COUNTER.v 
+# -- Compiling module SC_LIVES_COUNTER
+# 
+# Top level modules:
+# 	SC_LIVES_COUNTER
+# End time: 20:27:15 on Nov 21,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl {C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_COUNTER_LEVELS.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:15 on Nov 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl" C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_COUNTER_LEVELS.v 
+# -- Compiling module SC_COUNTER_LEVELS
+# 
+# Top level modules:
+# 	SC_COUNTER_LEVELS
+# End time: 20:27:15 on Nov 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl {C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC.STATEMACHINEGENERAL.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:15 on Nov 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl" C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC.STATEMACHINEGENERAL.v 
+# -- Compiling module SC_STATEMACHINEGENERAL
+# 
+# Top level modules:
+# 	SC_STATEMACHINEGENERAL
+# End time: 20:27:15 on Nov 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl {C:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_COMPARATOR_LIVES.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:15 on Nov 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl" C:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_COMPARATOR_LIVES.v 
+# -- Compiling module CC_COMPARATOR_LIVES
+# 
+# Top level modules:
+# 	CC_COMPARATOR_LIVES
+# End time: 20:27:15 on Nov 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl {C:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_COMPARATOR_LEVELS.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:15 on Nov 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl" C:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_COMPARATOR_LEVELS.v 
+# -- Compiling module CC_COMPARATOR_LEVELS
+# 
+# Top level modules:
+# 	CC_COMPARATOR_LEVELS
+# End time: 20:27:15 on Nov 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl {C:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_DISPLAYTIMER_COMPARATOR.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:15 on Nov 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl" C:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_DISPLAYTIMER_COMPARATOR.v 
+# -- Compiling module CC_DISPLAYTIMER_COMPARATOR
+# 
+# Top level modules:
+# 	CC_DISPLAYTIMER_COMPARATOR
+# End time: 20:27:15 on Nov 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl {C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_DISPLAYTIMER_COUNTER.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:15 on Nov 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mateo/Desktop/Frogger_ganador/rtl" C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_DISPLAYTIMER_COUNTER.v 
+# -- Compiling module SC_DISPLAYTIMER_COUNTER
+# 
+# Top level modules:
+# 	SC_DISPLAYTIMER_COUNTER
+# End time: 20:27:15 on Nov 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/mateo/Desktop/Frogger_ganador/simulation/modelsim {C:/Users/mateo/Desktop/Frogger_ganador/simulation/modelsim/TB_SYSTEM.vt}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 20:27:15 on Nov 21,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/mateo/Desktop/Frogger_ganador/simulation/modelsim" C:/Users/mateo/Desktop/Frogger_ganador/simulation/modelsim/TB_SYSTEM.vt 
+# -- Compiling module TB_SYSTEM
+# 
+# Top level modules:
+# 	TB_SYSTEM
+# End time: 20:27:15 on Nov 21,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  TB_SYSTEM
+# End time: 20:27:16 on Nov 21,2022, Elapsed time: 0:00:13
+# Errors: 0, Warnings: 22
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" TB_SYSTEM 
+# Start time: 20:27:16 on Nov 21,2022
+# Loading work.TB_SYSTEM
+# Loading work.BB_SYSTEM
+# Loading work.SC_DEBOUNCE1
+# Loading work.SC_RegPOINTTYPE
+# Loading work.SC_STATEMACHINEPOINT
+# Loading work.SC_RegBACKGTYPE
+# Loading work.SC_STATEMACHINEBACKG
+# Loading work.SC_upSPEEDCOUNTER
+# Loading work.CC_SPEEDCOMPARATOR
+# Loading work.SC_DISPLAYTIMER_COUNTER
+# Loading work.CC_DISPLAYTIMER_COMPARATOR
+# Loading work.CC_MATRIXCOMPARATOR
+# Loading work.CC_LastRegisterCOMPARATOR
+# Loading work.CC_BOTTOMSIDECOMPARATOR
+# Loading work.SC_COUNTER_LEVELS
+# Loading work.CC_COMPARATOR_LEVELS
+# Loading work.SC_LIVES_COUNTER
+# Loading work.CC_COMPARATOR_LIVES
+# Loading work.SC_STATEMACHINEGENERAL
+# Loading work.matrix_ctrl
+# Loading work.shift_reg_start_done
+# Loading work.CC_BIN2BCD1
+# Loading work.CC_SEVENSEG1
+# Loading work.SC_upCOUNTER
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (1) for port 'BB_SYSTEM_display_OutBUS'. The port definition is at: C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v(24).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_SYSTEM/BB_SYSTEM_u0 File: C:/Users/mateo/Desktop/Frogger_ganador/simulation/modelsim/TB_SYSTEM.vt Line: 60
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'SC_RegBACKGTYPE_u6'.  Expected 9, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /TB_SYSTEM/BB_SYSTEM_u0/SC_RegBACKGTYPE_u6 File: C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v Line: 443
+# ** Warning: (vsim-3722) C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v(443): [TFMPC] - Missing connection for port 'SC_RegBACKGTYPE_data2_InBUS'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'SC_RegBACKGTYPE_u5'.  Expected 9, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /TB_SYSTEM/BB_SYSTEM_u0/SC_RegBACKGTYPE_u5 File: C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v Line: 461
+# ** Warning: (vsim-3722) C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v(461): [TFMPC] - Missing connection for port 'SC_RegBACKGTYPE_data2_InBUS'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'SC_RegBACKGTYPE_u4'.  Expected 9, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /TB_SYSTEM/BB_SYSTEM_u0/SC_RegBACKGTYPE_u4 File: C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v Line: 480
+# ** Warning: (vsim-3722) C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v(480): [TFMPC] - Missing connection for port 'SC_RegBACKGTYPE_data2_InBUS'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'SC_RegBACKGTYPE_u3'.  Expected 9, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /TB_SYSTEM/BB_SYSTEM_u0/SC_RegBACKGTYPE_u3 File: C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v Line: 498
+# ** Warning: (vsim-3722) C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v(498): [TFMPC] - Missing connection for port 'SC_RegBACKGTYPE_data2_InBUS'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'SC_RegBACKGTYPE_u2'.  Expected 9, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /TB_SYSTEM/BB_SYSTEM_u0/SC_RegBACKGTYPE_u2 File: C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v Line: 515
+# ** Warning: (vsim-3722) C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v(515): [TFMPC] - Missing connection for port 'SC_RegBACKGTYPE_data2_InBUS'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'SC_RegBACKGTYPE_u1'.  Expected 9, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /TB_SYSTEM/BB_SYSTEM_u0/SC_RegBACKGTYPE_u1 File: C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v Line: 533
+# ** Warning: (vsim-3722) C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v(533): [TFMPC] - Missing connection for port 'SC_RegBACKGTYPE_data2_InBUS'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'SC_RegBACKGTYPE_u0'.  Expected 9, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /TB_SYSTEM/BB_SYSTEM_u0/SC_RegBACKGTYPE_u0 File: C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v Line: 550
+# ** Warning: (vsim-3722) C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v(550): [TFMPC] - Missing connection for port 'SC_RegBACKGTYPE_data2_InBUS'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (2) for port 'SC_COUNTER_LEVELS_senal_OutLow'. The port definition is at: C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_COUNTER_LEVELS.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_SYSTEM/BB_SYSTEM_u0/SC_COUNTER_LEVELS_u0 File: C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v Line: 628
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (2) for port 'CC_COMPARATOR_LEVELS_senal_InLow'. The port definition is at: C:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_COMPARATOR_LEVELS.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_SYSTEM/BB_SYSTEM_u0/CC_COMPARATOR_LEVELS_u0 File: C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v Line: 635
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'SC_LIVES_COUNTER_senal_OutLow'. The port definition is at: C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_LIVES_COUNTER.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_SYSTEM/BB_SYSTEM_u0/SC_LIVES_COUNTER_u0 File: C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v Line: 640
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'CC_COMPARATOR_LIVES_senal_InLow'. The port definition is at: C:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_COMPARATOR_LIVES.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_SYSTEM/BB_SYSTEM_u0/CC_COMPARATOR_LIVES_u0 File: C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v Line: 648
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'SC_STATEMACHINEGENERAL_u0'.  Expected 12, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /TB_SYSTEM/BB_SYSTEM_u0/SC_STATEMACHINEGENERAL_u0 File: C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v Line: 653
+# ** Warning: (vsim-3722) C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v(653): [TFMPC] - Missing connection for port 'SC_STATEMACHINEGENERAL_contador_CLEAR_OutLow'.
+# ** Warning: (vsim-3722) C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v(653): [TFMPC] - Missing connection for port 'SC_STATEMACHINEGENERAL_Load2_OutLow'.
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# Running testbench
+# Break key hit
+# Simulation stop requested.
+# ** UI-Msg: (vish-4014) No objects found matching '/TB_SYSTEM/BB_SYSTEM_u0/SC_STATEMACHINEBACKG_u0/SC_STATEMACHINEBACKG_load_OutLow'.
+# Executing ONERROR command at macro ./TB_SYSTEM.do line 76
+# ** UI-Msg: (vish-4014) No objects found matching '/TB_SYSTEM/BB_SYSTEM_u0/SC_STATEMACHINEBACKG_u0/SC_STATEMACHINEBACKG_loadLastRegister_OutLow'.
+# Executing ONERROR command at macro ./TB_SYSTEM.do line 80
+# ** UI-Msg: (vish-4014) No objects found matching '/TB_SYSTEM/BB_SYSTEM_u0/SC_STATEMACHINEBACKG_u0/SC_STATEMACHINEBACKG_LastRegisterComparator_InLow'.
+# Executing ONERROR command at macro ./TB_SYSTEM.do line 81
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (12) does not match connection size (1) for port 'BB_SYSTEM_display_OutBUS'. The port definition is at: C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v(24).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_SYSTEM/BB_SYSTEM_u0 File: C:/Users/mateo/Desktop/Frogger_ganador/simulation/modelsim/TB_SYSTEM.vt Line: 60
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'SC_RegBACKGTYPE_u6'.  Expected 9, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /TB_SYSTEM/BB_SYSTEM_u0/SC_RegBACKGTYPE_u6 File: C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v Line: 443
+# ** Warning: (vsim-3722) C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v(443): [TFMPC] - Missing connection for port 'SC_RegBACKGTYPE_data2_InBUS'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'SC_RegBACKGTYPE_u5'.  Expected 9, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /TB_SYSTEM/BB_SYSTEM_u0/SC_RegBACKGTYPE_u5 File: C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v Line: 461
+# ** Warning: (vsim-3722) C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v(461): [TFMPC] - Missing connection for port 'SC_RegBACKGTYPE_data2_InBUS'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'SC_RegBACKGTYPE_u4'.  Expected 9, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /TB_SYSTEM/BB_SYSTEM_u0/SC_RegBACKGTYPE_u4 File: C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v Line: 480
+# ** Warning: (vsim-3722) C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v(480): [TFMPC] - Missing connection for port 'SC_RegBACKGTYPE_data2_InBUS'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'SC_RegBACKGTYPE_u3'.  Expected 9, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /TB_SYSTEM/BB_SYSTEM_u0/SC_RegBACKGTYPE_u3 File: C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v Line: 498
+# ** Warning: (vsim-3722) C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v(498): [TFMPC] - Missing connection for port 'SC_RegBACKGTYPE_data2_InBUS'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'SC_RegBACKGTYPE_u2'.  Expected 9, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /TB_SYSTEM/BB_SYSTEM_u0/SC_RegBACKGTYPE_u2 File: C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v Line: 515
+# ** Warning: (vsim-3722) C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v(515): [TFMPC] - Missing connection for port 'SC_RegBACKGTYPE_data2_InBUS'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'SC_RegBACKGTYPE_u1'.  Expected 9, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /TB_SYSTEM/BB_SYSTEM_u0/SC_RegBACKGTYPE_u1 File: C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v Line: 533
+# ** Warning: (vsim-3722) C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v(533): [TFMPC] - Missing connection for port 'SC_RegBACKGTYPE_data2_InBUS'.
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'SC_RegBACKGTYPE_u0'.  Expected 9, found 8.
+#    Time: 0 ps  Iteration: 0  Instance: /TB_SYSTEM/BB_SYSTEM_u0/SC_RegBACKGTYPE_u0 File: C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v Line: 550
+# ** Warning: (vsim-3722) C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v(550): [TFMPC] - Missing connection for port 'SC_RegBACKGTYPE_data2_InBUS'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (2) for port 'SC_COUNTER_LEVELS_senal_OutLow'. The port definition is at: C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_COUNTER_LEVELS.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_SYSTEM/BB_SYSTEM_u0/SC_COUNTER_LEVELS_u0 File: C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v Line: 628
+# ** Warning: (vsim-3015) [PCDPC] - Port size (5) does not match connection size (2) for port 'CC_COMPARATOR_LEVELS_senal_InLow'. The port definition is at: C:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_COMPARATOR_LEVELS.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_SYSTEM/BB_SYSTEM_u0/CC_COMPARATOR_LEVELS_u0 File: C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v Line: 635
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'SC_LIVES_COUNTER_senal_OutLow'. The port definition is at: C:/Users/mateo/Desktop/Frogger_ganador/rtl/SC_LIVES_COUNTER.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_SYSTEM/BB_SYSTEM_u0/SC_LIVES_COUNTER_u0 File: C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v Line: 640
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (1) for port 'CC_COMPARATOR_LIVES_senal_InLow'. The port definition is at: C:/Users/mateo/Desktop/Frogger_ganador/rtl/CC_COMPARATOR_LIVES.v(8).
+#    Time: 0 ps  Iteration: 0  Instance: /TB_SYSTEM/BB_SYSTEM_u0/CC_COMPARATOR_LIVES_u0 File: C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v Line: 648
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'SC_STATEMACHINEGENERAL_u0'.  Expected 12, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /TB_SYSTEM/BB_SYSTEM_u0/SC_STATEMACHINEGENERAL_u0 File: C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v Line: 653
+# ** Warning: (vsim-3722) C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v(653): [TFMPC] - Missing connection for port 'SC_STATEMACHINEGENERAL_contador_CLEAR_OutLow'.
+# ** Warning: (vsim-3722) C:/Users/mateo/Desktop/Frogger_ganador/BB_SYSTEM.v(653): [TFMPC] - Missing connection for port 'SC_STATEMACHINEGENERAL_Load2_OutLow'.
+# Running testbench
+# End time: 20:59:18 on Nov 21,2022, Elapsed time: 0:32:02
+# Errors: 0, Warnings: 22
